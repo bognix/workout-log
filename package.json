@@ -1,0 +1,19 @@
+{
+  "name": "workout-log--server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Bogna bognix Knychala",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "watch": "nodemon ./index.js"
+  }
+}
