@@ -19,15 +19,15 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/admin/Admin.vue'),
       children: [
         {
-          path: '/machines',
+          path: 'machines',
           component: () => import(/* webpackChunkName: "about" */ './views/admin/MachinesList.vue'),
         },
         {
-          path: '/machines/new',
+          path: 'machines/new',
           component: () => import(/* webpackChunkName: "about" */ './views/admin/MachineAdd.vue'),
         },
         {
-          path: '/machines/:id',
+          path: 'machines/:id',
           component: () => import(/* webpackChunkName: "about" */ './views/admin/Machine.vue'),
         }
       ]
