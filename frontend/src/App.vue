@@ -13,16 +13,20 @@
         </router-link>
       </div>
     </nav>
-    <router-view/>
+    <div class="section">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-
 </script>
 
 <style lang="scss">
 @import 'bulma';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/solid";
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
